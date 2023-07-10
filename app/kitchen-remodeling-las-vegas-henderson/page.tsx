@@ -16,6 +16,8 @@ import BestKitchen2 from "/public/best-kitchen-renovation-las-vegas-henderson.jp
 import BestKitchen3 from "/public/best-kitchen-renovation-las-vegas-henderson2.jpg";
 import BestKitchen4 from "/public/best-kitchen-contractor-las-vegas-henderson2.jpg";
 import Plans2 from "/public/kitchen-las-vegas.jpg";
+import ContactForm from "../components/requestForm";
+import HomePageGallery from "../components/gallery/homepage";
 
 export default function KitchenRemodeling() {
   return (
@@ -141,6 +143,8 @@ export default function KitchenRemodeling() {
           </div>
         </div>
       </div>
+      <HomePageGallery />
+
       <Border />
 
       <div className="overflow-hidden bg-white py-12">
@@ -215,6 +219,8 @@ export default function KitchenRemodeling() {
           </div>
         </div>
       </div>
+      <ContactForm />
+
     </div>
   );
 }

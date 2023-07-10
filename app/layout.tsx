@@ -1,9 +1,10 @@
-import ContactForm from "./components/contactForm";
+import ContactForm from "./components/requestForm";
 
 import './globals.css'
 
 import { Inter } from "next/font/google";
 import NavBar from "./components/navbar";
+import HomePageGallery from "./components/gallery/homepage";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,7 +25,8 @@ export default function RootLayout({
 
       <NavBar />
         {children}
-      <ContactForm />
+
+
         </body>
     </html>
   );

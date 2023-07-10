@@ -10,6 +10,9 @@ import FullHomeRenovation from "/public/full-home-remodeling-renovation-las-vega
 import BestContractor from "/public/best-remodeling-contractor-las-vegas.jpg";
 import Cover from "./components/cover";
 import Border from "./components/border";
+import type { NextPage } from "next";
+import HomePageGallery from "./components/gallery/homepage";
+import ContactForm from "./components/requestForm";
 
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
@@ -114,10 +117,17 @@ export default function Home() {
             <div className="grid grid-cols-1 items-center gap-x-16 gap-y-10 lg:grid-cols-2 ">
               <div>
                 <h1 className="text-4xl font-bold tracking-tight text-slate-900">
-                Sphere Remodeling: Transforming Las Vegas Homes and Commercial Spaces with Expert Craftsmanship
+                  Sphere Remodeling: Transforming Las Vegas Homes and Commercial
+                  Spaces with Expert Craftsmanship
                 </h1>
                 <p className="mt-4 text-slate-900 ">
-                At Sphere Remodeling, we believe that your home should be a reflection of your unique personality and style. Located in the heart of Las Vegas and serving the surrounding Henderson area, we specialize in transforming ordinary homes into extraordinary living spaces. With over 25 years of combined experience, our owners ensure every project is handled with the utmost professionalism, care, and attention to detail.
+                  At Sphere Remodeling, we believe that your home should be a
+                  reflection of your unique personality and style. Located in
+                  the heart of Las Vegas and serving the surrounding Henderson
+                  area, we specialize in transforming ordinary homes into
+                  extraordinary living spaces. With over 25 years of combined
+                  experience, our owners ensure every project is handled with
+                  the utmost professionalism, care, and attention to detail.
                 </p>
               </div>
               <div className="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg bg-gray-100">
@@ -162,7 +172,9 @@ export default function Home() {
                 We are a full-service residential design and remodeling service
               </h2>
               <p className="mt-2 text-lg leading-8 text-slate-900">
-              Our founders, who boast over 25 years of combined experience in residential and commercial renovations, personally oversee every project.
+                Our founders, who boast over 25 years of combined experience in
+                residential and commercial renovations, personally oversee every
+                project.
               </p>
             </div>
 
@@ -206,18 +218,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-
-        <div>
-          <div className="relative isolate overflow-hidden bg-gray-900 px-6 py-24 sm:py-32 lg:px-8 ">
-            <Image
-              src={FullHomeRenovation}
-              alt=""
-              className="absolute inset-0 -z-10 h-full w-full object-cover"
-              width={3200}
-              height={1000}
-            />
-          </div>
-        </div>
       </div>
 
       <div className="overflow-hidden bg-white py-24 sm:py-32">
@@ -232,7 +232,12 @@ export default function Home() {
                   If you can dream it - we can build it
                 </p>
                 <p className="mt-6 text-lg leading-8 text-slate-900">
-                With us, you're not just getting a contractor, you're partnering with experienced professionals who take pride in their work. From meticulous insulation installation that optimizes your home's energy efficiency to artful drywall work and overhead door installation, we're committed to exceeding your expectations.
+                  With us, you're not just getting a contractor, you're
+                  partnering with experienced professionals who take pride in
+                  their work. From meticulous insulation installation that
+                  optimizes your home's energy efficiency to artful drywall work
+                  and overhead door installation, we're committed to exceeding
+                  your expectations.
                 </p>
                 <div className="mt-8">
                   <a
@@ -259,7 +264,13 @@ export default function Home() {
           </div>
         </div>
       </div>
+
       <Border />
+      
+      <HomePageGallery />
+
+
+            <ContactForm />
     </div>
   );
 }

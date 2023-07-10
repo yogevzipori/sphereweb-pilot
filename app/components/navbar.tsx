@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 "use client"
 import Image, { StaticImageData } from "next/image";
 
@@ -28,7 +27,7 @@ const services = [
   {
     name: "Home Remodeling",
     description: "Get a better understanding where your traffic is coming from",
-    href: "#", 
+    href: "/kitchen-remodeling-las-vegas-henderson", 
     // icon: ChartPieIcon,
   },
   {
@@ -39,13 +38,13 @@ const services = [
   },
   {
     name: "Bathroom Remodeling",
-    description: "Your customers’ data will be safe and secure",
+    description: "Your customers data will be safe and secure",
     href: "/bathroom-remodeling-las-vegas-henderson",
     // icon: FingerPrintIcon,
   },
   {
     name: "Flooring",
-    description: "Your customers’ data will be safe and secure",
+    description: "Your customers data will be safe and secure",
     href: "#",
     // icon: SquaresPlusIcon,
   },
@@ -53,7 +52,7 @@ const services = [
 const callsToAction = [
   { name: "View all services", href: "#", icon: RectangleGroupIcon },
   { name: "Our process", href: "#", icon: PlayCircleIcon },
-  { name: "Contact sales", href: "#", icon: PhoneIcon },
+  { name: "Contact us", href: "/contact-sphere-remodeling", icon: PhoneIcon },
 ];
 
 function classNames(...classes: string[]) {
@@ -167,7 +166,7 @@ export default function NavBar() {
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
             About
           </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <a href="/contact-sphere-remodeling" className="text-sm font-semibold leading-6 text-gray-900">
             Contact Us
           </a>
         </Popover.Group>
@@ -188,14 +187,14 @@ export default function NavBar() {
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <Image
+              {/* <Image
         
               src={Logo}
               alt=""
               width={250}
               height={210}
             
-            />
+            /> */}
             </a>
             <button
               type="button"
@@ -257,7 +256,7 @@ export default function NavBar() {
                   About
                 </a>
                 <a
-                  href="#"
+                  href="/contact-sphere-remodeling"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Contact Us
