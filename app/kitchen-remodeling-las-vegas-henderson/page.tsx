@@ -40,10 +40,10 @@ export default function KitchenRemodeling() {
                 {/* <p className="text-base font-semibold leading-7 text-indigo-600">
                   Deploy faster
                 </p> */}
-                <h1 className="mt-2 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
+                <h1 className="mt-2 text-lg font-bold tracking-tight text-slate-900 sm:text-3xl">
                   Kitchen Remodeling Las Vegas & Henderson
                 </h1>
-                <p className="mt-8 text-2xl font-bold tracking-tight text-slate-900">
+                <p className="mt-8 text-md font-bold  tracking-tight text-slate-900">
                   Our owners, possessing over 25 years of combined experience in
                   residential and commercial projects, personally operate Sphere
                   Remodeling, bringing a wealth of expertise and dedication to
@@ -117,7 +117,7 @@ export default function KitchenRemodeling() {
                 </ul> */}
 
 
-                <p className="lg:-mt-8 sm:-mt-14 text-2xl tracking-tight text-slate-900">
+                <p className="lg:-mt-8 sm:-mt-14 text-md tracking-tight text-slate-900">
                 You can trust us with all of your kitchen remodeling needs, from
                 start to finish. We'll take care of everything from demolition
                 to installation so that you don't have to worry about anything
@@ -125,10 +125,10 @@ export default function KitchenRemodeling() {
 
                 </p>
 
-                <h2 className="mt-14 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
+                <h2 className="mt-14 text-lg font-bold tracking-tight text-slate-900 sm:text-3xl">
                   We're more than just a kitchen remodeling company
                 </h2>
-                <p className="mt-2 text-2xl tracking-tight text-slate-900">
+                <p className="mt-2 text-md tracking-tight text-slate-900">
                   Our expertise extends beyond kitchens. We're adept at
                   implementing energy-efficient insulation solutions, perfect
                   for the desert climate of Las Vegas and Henderson. Our
